@@ -45,8 +45,8 @@ public class UserManager {
     public static void main(String[] args) {
         UserManager um = new UserManager();
         um.addUser("John");
-		um.addUser("Jack");
-		um.addUser("Donald");
+	um.addUser("Jack");
+	um.addUser("Donald");
         um.addUser(""); 
         um.addUser("John"); 
         um.removeUser("Jane"); 
