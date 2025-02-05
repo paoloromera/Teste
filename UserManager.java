@@ -49,6 +49,7 @@ public class UserManager {
 	um.addUser("Donald");
         um.addUser(""); 
         um.addUser("John"); 
+        um.addUser(" "); 
         um.removeUser("Jane"); 
         um.printUsers();
         um.clearUsers();
